@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Alif Hassan Aunkur | Software Engineer & Full-Stack Product Builder',
   description: 'Software Engineer at Edutechs and Computer Science student at BRAC University. Full-stack products, enterprise CRM, financial visualization, data pipelines, and interactive software.',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
